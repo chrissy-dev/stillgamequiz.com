@@ -12,7 +12,7 @@ var data = {
     },
     "question_bank": [{
         "id": 1,
-        "question": "In season 1 episode 1 (Flittin') Tams grandson Joe is fighting in a boxing match. What is the full name of the boy he is fighting?",
+        "question": "Tams grandson Joe is fighting in a boxing match. What is the full name of the boy he is fighting?",
         "explanation": null,
         "answer": "Barry Drummond",
         "season": "1"
@@ -24,13 +24,13 @@ var data = {
         "season": "1"
     }, {
         "id": 3,
-        "question": "How much did Winston win at Stevie’s bookie before Stevie did the off?",
+        "question": "How much did Winston win off of Stevie the bookie before he did the off?",
         "explanation": null,
         "answer": "£32,500",
         "season": "3"
     }, {
         "id": 4,
-        "question": "What was controversial Tam's prize for winning the card game in the episode \"Cairds\"?",
+        "question": "What was Tam's controversial prize for winning the card game in the episode \"Cairds\"?",
         "explanation": "",
         "answer": "Auld Joes buggy",
         "season": "3"
