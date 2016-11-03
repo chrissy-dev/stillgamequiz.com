@@ -179,13 +179,13 @@ var data = {
 
     }, {
 
-        "question": "When mocking Winston in 'Oot', where does Chris say his van is?		",
+        "question": "When mocking Winston in 'Oot', where does Chris say his van is?",
 
         "answer": "In an envelope",
 
     }, {
 
-        "question": "When you pay to see the tarot reader, what else do you receive?		",
+        "question": "When you pay to see the tarot reader, what else do you receive?",
 
         "answer": "A plate a scampi",
 
@@ -203,29 +203,39 @@ var data = {
 
     }, {
 
-        "question": "What name does Winston adopt when pretending to be the owner of the Clansman?		",
+        "question": "What name does Winston adopt when pretending to be the owner of the Clansman?",
 
         "answer": "Harvey Gallagher",
 
     }, {
 
-        "question": "What do Jack and Victor bring to the pub in case the McGills have been in?		",
+        "question": "What do Jack and Victor bring to the pub in case the McGills have been in?",
 
         "answer": "Swords",
 
     }, {
 
-        "question": "Who is Hughie's widow the double of?		",
+        "question": "Who is Hughie's widow the double of?",
 
         "answer": "Ken Dodd",
 
     }, {
-        "question": "What is the name of the pub Winston hasn't visited in 15 years?		",
+        "question": "What is the name of the pub Winston hasn't visited in 15 years?",
         "answer": "Browns",
-    },
-    {
-        "question": "With what caption does Tam win the scone competition?		",
+    }, {
+        "question": "With what caption does Tam win the scone competition?",
         "answer": "S'gone",
-    }
-  ]
+    }, {
+        "question": "Where does Tam propose to Frances?	",
+        "answer": "The Library",
+    }, {
+        "question": "Which appliance causes Tam to become overly-generous?",
+        "answer": "A toaster",
+    }, {
+        "question": "With what item does Tam claim to have modified Navid's van?	",
+        "answer": "A pishy mattress",
+    }, {
+        "question": "What item of food 'humps' Pete to reveal it is him who was raiding Navid's bins?",
+        "answer": "A Banana",
+    }]
 };
