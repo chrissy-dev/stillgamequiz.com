@@ -1,5 +1,6 @@
 var data = {
     "started": false,
+    "loaded": false,
     "settings": {
         "index": 0,
         "total": 0,

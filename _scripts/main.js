@@ -52,6 +52,12 @@ var app = new Vue({
 
 app.init();
 
+window.onload = function() {
+    app.settings.loaded = true;
+}
+
+
+
 console.log("I'll save ye the effort...");
 console.log("The site is a heavy simple Vue JS app and all the questions with answers are stored in plain text in the JavaScript (nae fancy shite going on here). ");
 console.log("Give us a shout on twitter in you want the GitHub repo public ;) @chrisssycollins");
