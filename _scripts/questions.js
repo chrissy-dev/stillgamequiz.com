@@ -237,5 +237,11 @@ var data = {
     }, {
         "question": "What item of food 'humps' Pete to reveal it is him who was raiding Navid's bins?",
         "answer": "A Banana",
+    }, {
+        "question": "What age is Methadone Mick?",
+        "answer": "23",
+    }, {
+        "question": "Who was Shug close to tae giein away his pension tae?",
+        "answer": "A prostitute",
     }]
 };
