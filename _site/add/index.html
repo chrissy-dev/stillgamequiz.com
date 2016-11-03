@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Still Game Quiz | Just some Still Game questions for the fans</title>
+    <title>Add a Question | Just some Still Game questions for the fans</title>
     <meta name="description" content="Think ye know Still Game? - a wee project by @chrisssycollins">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -29,36 +29,15 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
-    
-<main id="quiz">
-<div v-if="!loaded">
-  <div class="quiz" v-if="started">
-    <h1 class="quiz__question">{{ data.current.question }}</h1>
-    <h3 class="quiz__answer" v-if="settings.show_answer">  {{ data.current.answer }}</h3>
-    <section class="quiz__buttons">
-        <button v-on:click="newQuestion()" v-if="settings.show_answer">Another Question</button>
-        <button v-on:click="showAnswer()" v-if="!settings.show_answer">Show Answer</button>
-    </section>
-
-    <section class="quiz__social">
-        <div class="fb-like" data-href="http://www.stillgamequiz.com" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
-    </section>
-    <footer class="quiz__footer">
-        <p>
-            You've done {{ this.settings.index}}/{{ this.settings.total }} | <a href="/add">Add a question</a>
-        </p>
-    </footer>
+    <div class="form">
+  <h1><a href="/">← Back hame</a> | Add a question</h1>
+  <form action="https://formspree.io/chriscollins238@gmail.com"
+      method="POST">
+    <input type="text" name="question" placeholder="Question"  required="true">
+    <input type="text" name="answer" placeholder="Answer" required="true">
+    <input type="submit" value="Submit Question">
+</form>
 </div>
-
-<div class="quiz__landing" v-if="!started">
-    <h1 class="quiz__question">Still Game Quiz</h1>
-    <h2>It's no really a quiz. Just a bunch of random Still Game questions.</h2>
-    <button v-on:click="start()">Aye, fuck it. Let's go!</button>
-</div>
-</div>
-
-</main>
-
 
 </body>
 <script>

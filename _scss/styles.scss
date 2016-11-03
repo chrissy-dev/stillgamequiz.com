@@ -87,8 +87,7 @@ a:visited {
     }
     &__answer {
         font-size: 4rem;
-        margin: 2rem 0 3rem 0;
-
+        margin: 2rem 0 3rem;
         color: $secondary;
     }
     &__footer {
@@ -120,5 +119,51 @@ button {
     }
     &.alt {
         background: #eee;
+    }
+}
+.form {
+    width: 90%;
+    max-width: 700px;
+    margin: 10% auto;
+    input[type=submit] {
+        display: block;
+        margin-bottom: 1rem;
+        cursor: pointer;
+        color: #fff;
+        text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+        font-family: 'StillGame', sans-serif;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        background: $primary;
+        border: none;
+        padding: 14px 21px;
+        border-radius: 3px;
+        box-shadow: 0 2px 0 darken($primary, 10%);
+        outline: none;
+        &:hover {
+            background: darken($primary, 5%);
+        }
+        &:active {
+            background: darken($primary, 15%);
+        }
+        &.alt {
+            background: #eee;
+        }
+    }
+    input[type=text] {
+      width: 100%;
+        display: block;
+        margin-bottom: 1rem;
+        cursor: text;
+        color: #1d1d1d;
+        font-family: 'StillGame', sans-serif;
+        font-size: 1.6rem;
+        text-transform: uppercase;
+        background: #eee;
+        border: none;
+        padding: 14px 21px;
+        border-radius: 3px;
+        box-shadow: 0 2px 0 #aaa;
+        outline: none;
     }
 }
