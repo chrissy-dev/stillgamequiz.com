@@ -1,0 +1,47 @@
+{
+  "name": "ignition",
+  "version": "1.2.0",
+  "description": "Jeykll project to maintain all the landing pages and assets for arnoldclark.com. Use Ruby 2.3.0.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "setup": "npm install -g gulp-cli && npm install",
+    "dev": "gulp server",
+    "force": "gulp javascripts --force && gulp stylesheets --force && jekyll build",
+    "upgrade": "npm install -g npm-check-updates && npm-check-updates -u && npm install",
+    "ie": "gulp ie && jekyll build"
+  },
+  "author": "Chrissy Collins",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-changed": "*",
+    "gulp-debug": "*",
+    "gulp-if": "*",
+    "gulp-include": "*",
+    "gulp-newer": "*",
+    "gulp-no-media-queries": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-tap": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "run-sequence": "*",
+    "yargs": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnoldclark/ignition"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "bugs": {
+    "url": "https://github.com/arnoldclark/ignition/issues"
+  },
+  "homepage": "https://github.com/arnoldclark/ignition"
+}

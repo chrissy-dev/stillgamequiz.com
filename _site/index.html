@@ -1,11 +1,27 @@
----
-title: Still Game Quiz | Just some Still Game questions for the fans
-description: Think ye know Still Game? - a wee project by @chrisssycollins
+<!DOCTYPE html>
+<html lang="en-GB">
 
-layout: default
----
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Still Game Quiz | Just some Still Game questions for the fans</title>
+    <meta name="description" content="Think ye know Still Game? - a wee project by @chrisssycollins">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" type="text/css" href="/cdn/css/styles.css" /> 
+</head>
 
-{% raw %}
+<body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=104124686349100";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+    
 <main id="quiz"><div class="quiz" v-if="started">
     <h1 class="quiz__question">{{ data.current.question }}</h1>
     <h3 class="quiz__answer" v-if="settings.show_answer">  {{ data.current.answer }}</h3>
@@ -31,4 +47,10 @@ layout: default
     <button v-on:click="start()">Aye, fuck it. Let's go!</button>
 
 </div></main>
-{% endraw %}
+
+
+</body>
+<script src="/cdn/scripts/main.js"></script>
+
+
+</html>
