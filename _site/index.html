@@ -37,8 +37,6 @@
         <button v-on:click="showAnswer()" v-if="!settings.show_answer">Show Answer</button>
     </section>
 
-    <section class="quiz__social">
-<div class="fb-like" data-href="http://stillgamequiz.com/" data-width="320" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>    </section>
 
     <footer class="quiz__footer">
         <p>
@@ -52,9 +50,14 @@
     <h2>It's no really a quiz. Just a bunch of random Still Game questions.</h2>
     <button v-on:click="start()">Aye, fuck it. Let's go!</button>
 </div>
+
 </div>
 
 </main>
+
+<section class="quiz__social">
+<div class="fb-like" data-href="http://stillgamequiz.com/" data-width="320" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>    </section>
+
 
 
 </body>
