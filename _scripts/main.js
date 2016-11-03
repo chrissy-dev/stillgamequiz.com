@@ -205,6 +205,7 @@ var data = {
         "season": "1"
     }]
 };
+
 var questions = [];
 
 var app = new Vue({
@@ -242,16 +243,12 @@ var app = new Vue({
                 questions.push(i);
             }
             questions = this.shuffle(questions);
-
         }
 
     }
 })
 
 app.init();
-
-
-
 
 
 console.log("I'll save ye the effort...");
