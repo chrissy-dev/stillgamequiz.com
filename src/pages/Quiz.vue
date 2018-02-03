@@ -34,7 +34,7 @@ export default {
   data() {
     return {
       state: this.$root.$data,
-      timer: '10:00'
+      timer: '00:10'
     }
   },
   mounted() {

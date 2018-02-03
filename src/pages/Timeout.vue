@@ -1,19 +1,16 @@
 <template>
-<div class="pa4 tc vh-100 bg-white">
+<div class="pa4 tc db vh-100 bg-white">
   <div class="db w-100">
     <img src="/static/logo-dark.svg" alt="Still Game Quiz" class="dib center pb4 mb3">
   </div>
 
   <div class="db w-100">
-    <img src="/static/oot-ae-time.gif" alt="Still Game Quiz" class="dib center pb4">
+    <img src="/static/oot-ae-time.gif" alt="Still Game Quiz" class="dib center pb2">
   </div>
 
 
-  <h1 class="f2 b">nae points prick</h1>
-  <div class="db">
-    <a href="/" class="f6 link dim ph3 pv2 mb2 dib white bg-black fw6" :to="'quiz'">Start again</a>
-
-  </div>
+  <h1 class="f2 mv4 db b">nae points prick</h1>
+    <a href="/" class="f3 db br1 fw5 link pointer ph3 pv3 w-100 mb3 white bg-black">Start again</a>
 </div>
 </template>
 

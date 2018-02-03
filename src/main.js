@@ -241,7 +241,7 @@ var state = {
 
       "answer": "Ice Cream Van",
       'answers': [
-        'Ice cream Van', 'Car', 'Delivery Van', 'Bin Lorry'
+        'Ice Cream Van', 'Car', 'Delivery Van', 'Bin Lorry'
       ],
       'userAnswer': null
     }, {
