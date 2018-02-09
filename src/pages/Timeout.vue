@@ -10,7 +10,7 @@
 
 
   <h1 class="f2 mv4 db b">nae points prick</h1>
-    <a href="/" class="f3 db br1 fw5 link pointer ph3 pv3 w-100 mb3 white bg-black">Start again</a>
+    <a href="/" class="f3 db mw6 center br1 fw5 link pointer ph3 pv3 w-100 mb3 white bg-black">Start again</a>
 </div>
 </template>
 
