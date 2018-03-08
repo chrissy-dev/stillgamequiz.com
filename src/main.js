@@ -12,7 +12,7 @@ var state = {
   'correct': 0,
   'questions': [
     {
-      'question': 'Tams grandson Joe is fighting in a boxing match. What is the full name of the boy he is fighting?',
+      'question': 'Winstons grandson Joe is fighting in a boxing match. What is the full name of the boy he is fighting?',
       'answer': 'Barry Drummond',
       'answers': [
         'Gary Drummond', 'Barry Drummond', 'Stevie Drimmon', 'Harry Hoofter'
@@ -189,7 +189,7 @@ var state = {
 
       "question": "What day of the week did Pete the jakey invent the beefy bake?",
 
-      "answer": "Tuesday",
+      "answer": "Sunday",
       'answers': [
         'Monday', 'Tuesday', 'Wednesday', 'Sunday'
       ],
