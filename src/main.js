@@ -126,7 +126,7 @@ var state = {
       'userAnswer': null
     }, {
       "question": "How much money does Winston win from a can of cat food?",
-      "answer": "£300",
+      "answer": "£500",
       'answers': [
         '£200', '£300', '£400', '£500'
       ],
