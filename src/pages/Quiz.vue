@@ -19,9 +19,7 @@
     <h2 class="lh-copy tc measure">{{ state.questions[state.currentQuestion].question }}</h2>
   </div>
 
-
-
-  <div class="db w-75-l center" v-for="answer in state.questions[state.currentQuestion].answers ">
+  <div class="db w-75-l center" v-for="answer in state.questions[state.currentQuestion].answers">
     <button class="f3 br1 fw5 link pointer ph3 pv3 w-100 mb3 white bg-black" type="button " v-on:click="submitQuestion(answer) ">{{ answer }}</button>
   </div>
 
