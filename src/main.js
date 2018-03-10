@@ -62,10 +62,10 @@ var state = {
       ],
       'userAnswer': null
     }, {
-      "question": "Do Jack and Victor dress up for The Clansman's fancy dress night?",
-      "answer": true,
+      "question": "Jack and Victor dressed up for The Clansman's fancy dress night.",
+      "answer": "True",
       'answers': [
-        true, false
+        'True', 'False'
       ],
       'userAnswer': null
     }, {
@@ -118,10 +118,10 @@ var state = {
       ],
       'userAnswer': null
     }, {
-      "question": "True or false does Navid have any children?",
-      "answer": true,
+      "question": "Navid has at least one child.",
+      "answer": "True",
       'answers': [
-        true, false
+        "True", "False"
       ],
       'userAnswer': null
     }, {
@@ -291,7 +291,7 @@ var state = {
       'userAnswer': null
     }, {
 
-      "question": "Who got naked at Victor and Betty's 1975 Hogmanay party?	",
+      "question": "Who took most of their clothes off at Victor and Betty's 1975 Hogmanay party?	",
 
       "answer": "Isa",
       'answers': [

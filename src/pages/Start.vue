@@ -13,7 +13,7 @@
   </div>
 
   <div class="tc mt5">
-    <a href="https://www.twitter.com/chrisssycollins" title="Language" class="f7 dib ph2 link mid-gray dim">a wee hing by chrisssy 🍺</a>
+    <a href="https://www.twitter.com/chrisssycollins" title="Language" class="f7 dib ph2 link mid-gray dim">built by chrisssy 🍺</a>
   </div>
 
 </div>
