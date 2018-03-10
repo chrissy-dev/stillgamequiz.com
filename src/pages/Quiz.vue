@@ -19,7 +19,7 @@
     <h2 class="lh-copy tc measure">{{ state.questions[state.currentQuestion].question }}</h2>
   </div>
 
-   <div class="center pa4 w-75-l">
+   <div class="center pa4 pt0 w-75-l">
     <adsense
       ad-client="ca-pub-9941566456960150"
       ad-slot="3533780820"
