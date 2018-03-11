@@ -23,7 +23,7 @@
     <adsense
       ad-client="ca-pub-9941566456960150"
       ad-slot="3533780820"
-      ad-style="display: block; height: 100px;"
+      ad-style="display:inline-block;width:320px;height:100px;"
       ad-format="auto">
     </adsense>
   </div>
@@ -36,7 +36,7 @@
     <adsense
       ad-client="ca-pub-9941566456960150"
       ad-slot="3533780820"
-      ad-style="display: block; height: 100px;"
+      ad-style="display:inline-block;width:320px;height:100px;"
       ad-format="auto">
     </adsense>
   </div>
