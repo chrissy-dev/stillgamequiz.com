@@ -19,7 +19,7 @@
     <h2 class="lh-copy tc measure">{{ state.questions[state.currentQuestion].question }}</h2>
   </div>
 
-   <div class="center pa4 pt0 w-75-l">
+   <div class="center pv4 pt0 w-75-l">
     <adsense
       ad-client="ca-pub-9941566456960150"
       ad-slot="3533780820"
@@ -32,6 +32,14 @@
     <button class="f3 br1 fw5 link pointer ph3 pv3 w-100 mb3 white bg-black" type="button " v-on:click="submitQuestion(answer) ">{{ answer }}</button>
   </div>
 
+  <div class="center pv4 pt0 w-75-l">
+    <adsense
+      ad-client="ca-pub-9941566456960150"
+      ad-slot="3533780820"
+      ad-style="display: block; height: 100px;"
+      ad-format="auto">
+    </adsense>
+  </div>
 </div>
 </template>
 
