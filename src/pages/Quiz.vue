@@ -19,11 +19,11 @@
     <h2 class="lh-copy tc measure">{{ state.questions[state.currentQuestion].question }}</h2>
   </div>
 
-   <div class="center pv4 pt0 w-75-l">
+   <div class="center pb4 w-75-l">
     <adsense
       ad-client="ca-pub-9941566456960150"
       ad-slot="3533780820"
-      ad-style="display:block;width:320px;height:100px;"
+      ad-style="margin:0 auto;display:block;width:320px;height:100px;"
       ad-format="320x100">
     </adsense>
   </div>
@@ -36,7 +36,7 @@
     <adsense
       ad-client="ca-pub-9941566456960150"
       ad-slot="3533780820"
-      ad-style="display:block;width:320px;height:100px;"
+      ad-style="margin:0 auto;display:block;width:320px;height:100px;"
       ad-format="320x100">
     </adsense>
   </div>
