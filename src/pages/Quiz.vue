@@ -19,26 +19,8 @@
     <h2 class="lh-copy tc measure">{{ state.questions[state.currentQuestion].question }}</h2>
   </div>
 
-   <div class="center pb4 w-75-l">
-    <adsense
-      ad-client="ca-pub-9941566456960150"
-      ad-slot="3533780820"
-      ad-style="margin:0 auto;display:block;width:320px;height:100px;"
-      ad-format="320x100">
-    </adsense>
-  </div>
-
   <div class="db w-75-l center" v-for="answer in state.questions[state.currentQuestion].answers">
     <button class="f3 br1 fw5 link pointer ph3 pv3 w-100 mb3 white bg-black" type="button " v-on:click="submitQuestion(answer) ">{{ answer }}</button>
-  </div>
-
-  <div class="center pb4 w-75-l">
-    <adsense
-      ad-client="ca-pub-9941566456960150"
-      ad-slot="3533780820"
-      ad-style="margin:0 auto;display:block;width:320px;height:100px;"
-      ad-format="320x100">
-    </adsense>
   </div>
 </div>
 </template>
@@ -106,7 +88,7 @@ export default {
       }
 
       if (m < 0) {
-        window.location = "http://localhost:8080/#/oot-ae-time"
+        window.location = "/#/oot-ae-time"
       }
 
       this.timer = m + ":" + s;
