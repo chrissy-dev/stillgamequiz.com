@@ -383,10 +383,10 @@ module.exports = [
       ],
       'userAnswer': null
     }, {
-      "question": "What age is Methadone Mick?",
-      "answer": "23",
+      "question": "What was Pete the jakeys last name?",
+      "answer": "McCormick",
       'answers': [
-        '21', '22', '23', '24'
+        'McCormick', 'Daily', 'Jones', 'McAdam'
       ],
       'userAnswer': null
     }, {
