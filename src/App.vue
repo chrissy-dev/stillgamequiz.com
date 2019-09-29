@@ -12,13 +12,12 @@
 </template>
 
 <script>
-import Quiz from "./Quiz.vue";
-import Timer from "./Timer.vue";
-import Results from "./Results.vue";
-import Header from "./Header.vue";
+import Quiz from "./views/Quiz.vue";
+import Results from "./views/Results.vue";
+import Header from "./components/Header.vue";
 
 export default {
-  name: "HelloWorld",
+  name: "StillGameQuiz",
   components: {
     AppHeader: Header,
     Quiz,

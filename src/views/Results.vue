@@ -1,4 +1,4 @@
-<template>
+<template lang="html">
   <div>
     <dl class="p-4 bg-green-700 text-center text-xl text-white rounded shadow">
       <dd class>You gave it a go, and ye got</dd>
