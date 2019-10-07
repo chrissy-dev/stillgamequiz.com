@@ -10,7 +10,7 @@ var state = {
   'questions': ShuffleArray(Questions),
   'isFinished': false,
   'incorrectQuestions': [],
-  'timer': '00:05',
+  'timer': '15:00',
   'timeUp': false
 }
 
