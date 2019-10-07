@@ -1,10 +1,12 @@
 <template lang="html">
     <div id="app">
-        <p class="text-gray-500 text-xs font-bold tracking-wider uppercase leading-none">Question {{ state.currentQuestion + 1 }}</p>
-        <h2 class="text-2xl md:text-3xl font-bold leading-tight my-4">{{ state.questions[state.currentQuestion].question }}</h2>
-        <ul v-for="answer in state.questions[state.currentQuestion].answers">
-            <li><button type="button " class="p-4 text-lg bg-black text-white rounded-sm shadow w-full mb-4 hover:opacity-75" v-on:click="submitQuestion(answer) ">{{ answer }}</button></li>
-        </ul>
+        <main v-if="!state.timeUp">
+          <p class="text-gray-500 text-xs font-bold tracking-wider uppercase leading-none">Question {{ state.currentQuestion + 1 }}</p>
+          <h2 class="text-2xl md:text-3xl font-bold leading-tight my-4">{{ state.questions[state.currentQuestion].question }}</h2>
+          <ul v-for="answer in state.questions[state.currentQuestion].answers">
+              <li><button type="button " class="p-4 text-lg bg-black text-white rounded-sm shadow w-full mb-4 hover:opacity-75" v-on:click="submitQuestion(answer) ">{{ answer }}</button></li>
+          </ul>
+        </main>
     </div>
 </template>
 

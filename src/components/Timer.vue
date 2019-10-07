@@ -1,5 +1,5 @@
 <template lang="html">
-<div>{{ timer }}</div>
+  <div>{{ state.timer }}</div>
 </template>
 
 <script>
@@ -7,7 +7,7 @@ export default {
   name: "Timer",
   data() {
     return {
-      timer: "15:00"
+      state: this.$root.$data,
     };
   },
   mounted() {
@@ -15,7 +15,7 @@ export default {
   },
   methods: {
     startTimer() {
-      var presentTime = this.timer;
+      var presentTime = this.state.timer;
       var timeArray = presentTime.split(/[:]+/);
       var m = timeArray[0];
       var s = this.checkSecond(timeArray[1] - 1);
@@ -23,10 +23,12 @@ export default {
         m = m - 1;
       }
       if (m < 0) {
-        window.location = "/#/oot-ae-time";
+        clearTimeout(this.startTimer);
+        this.state.timeUp = true;
+      } else {
+        this.state.timer = m + ":" + s;
+        setTimeout(this.startTimer, 1000);
       }
-      this.timer = m + ":" + s;
-      setTimeout(this.startTimer, 1000);
     },
     checkSecond(sec) {
       if (sec < 10 && sec >= 0) {

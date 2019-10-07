@@ -9,7 +9,9 @@ var state = {
   'correct': 0,
   'questions': ShuffleArray(Questions),
   'isFinished': false,
-  'incorrectQuestions': []
+  'incorrectQuestions': [],
+  'timer': '00:05',
+  'timeUp': false
 }
 
 new Vue({
