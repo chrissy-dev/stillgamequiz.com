@@ -4,6 +4,7 @@ import Questions from './Questions'
 import ShuffleArray from './utils/shuffleArray'
 
 var state = {
+  'init': false,
   'currentQuestion': 0,
   'incorrect': 0,
   'correct': 0,

@@ -1,6 +1,6 @@
 <template lang="html">
     <div id="app">
-        <main v-if="!state.timeUp">
+        <main>
           <p class="text-gray-500 text-xs font-bold tracking-wider uppercase leading-none">Question {{ state.currentQuestion + 1 }}</p>
           <h2 class="text-2xl md:text-3xl font-bold leading-tight my-4">{{ state.questions[state.currentQuestion].question }}</h2>
           <ul v-for="answer in state.questions[state.currentQuestion].answers">
