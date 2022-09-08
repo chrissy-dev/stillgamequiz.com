@@ -1,7 +1,7 @@
 <template lang="html">
 <div id="app" class="flex flex-col justify-between min-h-screen">
     <AppHeader v-if="state.init"></AppHeader>
-    <main class="px-4 w-full max-w-lg mx-auto self-start flex-grow">
+    <main class="px-4 w-full max-w-xl mx-auto self-start flex-grow">
       <Start v-if="!state.init"></Start>
       <div v-else>
         <Quiz v-if="!state.isFinished" /></Quiz>
