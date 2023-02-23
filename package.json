@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel src/index.html src/index.html --open",
     "prebuild": "rm -rf dist",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html && cp ads.txt dist/"
   },
   "dependencies": {
     "vue": "^2.5.17",
